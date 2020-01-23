@@ -50,12 +50,18 @@ body{
 }
 .menu{
     background: linear-gradient(90deg, rgb(112, 233, 42) 0%, rgb(9, 104, 121) 52%, rgb(28, 38, 173) 100%);;
-    height: var(--height-nav);
+    height: 45px;
     position: fixed;
     width: 100%;
     backdrop-filter: blur 5px;
     top: 0;
     box-shadow: 2px 2px 20px 0 rgb(43, 43, 43);
+}
+.container-links{
+    line-height:45px;
+    float: right;
+    padding-right: 30px;
+    
 }
 .menu li{
     list-style: none;
@@ -136,4 +142,18 @@ article footer{
 }
 .xddd{
     margin-top: 100px;
+}
+.link{
+    color:var(--color-text);
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 16px;
+    transition: all.5s;
+    border-left: 1px solid black;
+}
+
+.link:hover{
+    font-size: 16.05px;
+    color: rgb(54, 28, 53);
+
 }
