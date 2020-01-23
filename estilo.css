@@ -1,0 +1,139 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: beige;
+}
+h2{
+    font: bold 22px sans-serif;
+}
+
+header {
+    top:0;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    
+    display: block;
+}
+body{
+    text-align: center;
+    background: var(--color-nav);
+}
+.agrupar{
+    margin: 15px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: rgb(162, 253, 144);
+    
+    
+    border:1px solid black;
+}
+.cabecera{
+    background: linear-gradient(90deg, rgb(177, 13, 13) 0%, rgba(9,9,121,1) 52%, rgba(0,212,255,1) 100%);;
+    border: 1px solid  #c5c4c4;
+    padding: 50px;
+}
+.cabecera h1{
+    text-align: center;
+
+}
+.menu{
+    background: linear-gradient(90deg, rgb(112, 233, 42) 0%, rgb(9, 104, 121) 52%, rgb(28, 38, 173) 100%);;
+    height: var(--height-nav);
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur 5px;
+    top: 0;
+    box-shadow: 2px 2px 20px 0 rgb(43, 43, 43);
+}
+.menu li{
+    list-style: none;
+    border-left: 1px solid black;
+    
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline;
+}
+.seccion{
+   
+    margin: 0 auto;
+    width: 60%;
+    display: inline-flex;
+    flex-wrap:wrap;
+}
+article{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 5px 0;
+}
+time{
+    color: #999;
+
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+.columna{
+    width: 100px;
+    height: 100px;
+    
+    float: left;
+}
+
+.columna img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 50%;
+    padding-bottom: 300px;
+}
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background: rgb(230, 245, 94);
+    margin-bottom: 20px;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #836efa;
+}
+.seccion img{
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+.wey {
+    width: 100%;
+    height: auto;
+}
+
+.no {
+    position: relative;
+}
+
+.columnaa img{
+    width: 150px;
+    margin-top: -2px;
+    margin-bottom: -100px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.xddd{
+    margin-top: 100px;
+}
